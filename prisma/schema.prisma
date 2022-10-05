@@ -20,3 +20,10 @@ model Funcionario {
 
   @@map("funcionario")
 }
+
+model TipoEquipamento {
+  id        String @id @default(uuid())
+  descricao String
+
+  @@map("tipo_equipamento")
+}
